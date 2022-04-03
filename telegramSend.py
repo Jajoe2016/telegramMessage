@@ -1,11 +1,9 @@
 from telethon import TelegramClient, sync
 
-api_id = '12142448'
-api_hash = '818c9a779c3158fd998744bd3eb45d7a'
-token = '5177616376:AAFctPDdBKKEycIofFR4weCz-D436mcIF4U'
-message = 'Hi this is test bot from Yohannes'
-phone = '+15105427747'
-
+api_id = '<API_ID'
+api_hash = '<API_HASH'
+token = '<BOOT_TOKEN'
+phone = 'YOUR_PHONE_INCLUDING_COUNTRY_CODE' #this is needed for first time authorization - commneted below
 
 
 # run the below commented section for first time if telegram-send is not authorized
@@ -18,9 +16,9 @@ phone = '+15105427747'
 
 
 
-
-user_id = '+251967731813'
-message_content = 'ok'
+# Send Message
+user_id = '<@TELEGRAM_NAME|PHONE'  #this is the user to which message is sent
+message_content = 'Hi this is test message from my telegram bot'
 client = TelegramClient('session', api_id, api_hash)
 client.start()
 try:
