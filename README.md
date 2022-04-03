@@ -18,7 +18,8 @@ replace api_id = '<API_ID' and api_hash = '<API_HASH' with the corresponding str
 
 Step3 run the python script
 This is a very simple script with no parametrized inputs. 
-You will need to install the following python libs
-pip install telethon
+- You need python3.
+- You will need to install the following python libs telethon - read about it here https://pypi.org/project/Telethon/.
+to Install: pip install telethon
 
-replace user_id = '<@TELEGRAM_NAME|PHONE' with the phone or username to which message is sent.
+replace user_id = '<@TELEGRAM_NAME|PHONE' with the phone or username to which message will be sent.
